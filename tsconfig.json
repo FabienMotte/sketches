@@ -1,0 +1,22 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "/@src/*": ["src/*"],
+      "/@assets/*": ["src/assets/*"],
+      "/@utils/*": ["src/utils/*"],
+      "/@helpers/*": ["src/helpers/*"]
+    }
+  }
+}
